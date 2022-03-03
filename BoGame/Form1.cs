@@ -92,12 +92,25 @@ namespace BoGame
                 EndGame();
             }
 
-            if (score > 8)
-                pipeSpeed = 10;
-            if (score > 16)
-                pipeSpeed = 12;
-            if (score > 30)
-                pipeSpeed = 14;
+            switch (score)
+            {
+                case 8:
+                    pipeSpeed = 10;
+                    break;
+                case 16:
+                    pipeSpeed = 12;
+                    break;
+                case 30:
+                    pipeSpeed = 14;
+                    break;
+                case 40:
+                    pipeSpeed = 16;
+                    break;
+
+            }
+
+            
+
             
 
         }
