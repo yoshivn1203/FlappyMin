@@ -91,7 +91,7 @@ namespace BoGame
             {
                 EndGame();
             }
-
+            
             switch (score)
             {
                 case 8:
@@ -106,12 +106,15 @@ namespace BoGame
                 case 40:
                     pipeSpeed = 16;
                     break;
+                case 50:
+                    pipeSpeed = 18;
+                    break;
 
             }
 
-            
 
-            
+
+
 
         }
         
